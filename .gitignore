@@ -1,0 +1,22 @@
+# Mac
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Raw data - do not publish vendor/trial downloads
+data/raw/
+
+# Large processed market data
+data/processed/daily_*.csv
+data/processed/*barchart*.csv
+data/processed/*global_gas_prices*.csv
+
+# Excel files
+*.xlsx
+
+# Environment files
+.env
+.venv/

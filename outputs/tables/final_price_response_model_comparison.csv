@@ -1,0 +1,4 @@
+model,features,r_squared,intercept,coef_gti_v2_storage,coef_nbp_return_pct,coef_ttf_return_pct
+physical_gti_only,gti_v2_storage,0.031216809448896377,2.4066809547772308,2.4132819708936344,,
+market_context_only,"nbp_return_pct, ttf_return_pct",0.7075529242015244,0.9205726980764153,,-0.5117428661274831,0.9223001532073131
+combined_physical_and_market,"gti_v2_storage, nbp_return_pct, ttf_return_pct",0.7184352290581577,0.8436838285226562,-1.5179261073832668,-0.49685406139459065,0.9447731503664271

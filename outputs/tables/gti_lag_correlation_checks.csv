@@ -1,0 +1,9 @@
+relationship,correlation
+same_week_gti_vs_price_change,0.09149513419436249
+lag_1_gti_vs_price_change,-0.022345173305094113
+lag_2_gti_vs_price_change,0.1593530202638267
+lead_1_gti_vs_price_change,-0.13939153153385872
+same_week_gti_vs_return_pct,0.08852979576325183
+lag_1_gti_vs_return_pct,-0.12945386613866694
+lag_2_gti_vs_return_pct,0.20125595213083042
+lead_1_gti_vs_return_pct,-0.17585051616969918
