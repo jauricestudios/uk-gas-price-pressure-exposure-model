@@ -1,0 +1,7 @@
+Scenario,Driver,JKM_Shock,TTF_Shock,NBP_Shock,Comment,Base_NBP_Price_GBP_MWh,Scenario_NBP_Price_GBP_MWh,Monthly_Volume_MWh,Hedge_Ratio,Unhedged_Volume_MWh,Extra_Monthly_Cost_GBP
+Base Case,Current observed market,0.0,0.0,0.0,No stress applied,32.99,32.99,10000,0.6,4000.0,0.0
+European TTF Stress,European benchmark tightness,0.0,0.1575,0.1575,TTF-led pressure passes into UK gas prices,32.99,38.185925000000005,10000,0.6,4000.0,20783.70000000001
+Asian LNG Pull,Asian LNG demand pulls cargoes away from Europe,0.2,0.1,0.08,JKM rises and Europe/UK must compete harder for LNG,32.99,35.629200000000004,10000,0.6,4000.0,10556.80000000001
+Middle East LNG / Chokepoint Stress,LNG shipping and supply-risk premium,0.15,0.12,0.1,Geopolitical tension raises LNG freight and replacement-cost risk,32.99,36.28900000000001,10000,0.6,4000.0,13196.000000000025
+Combined Global Gas Stress,European tightness plus Asian LNG pull plus geopolitical risk,0.25,0.2,0.18,Multiple pressure channels hit the UK buyer at once,32.99,38.9282,10000,0.6,4000.0,23752.79999999998
+Relief Case,Softer demand and better supply conditions,-0.1,-0.08,-0.06,Lower benchmark pressure reduces buyer cost,32.99,31.0106,10000,0.6,4000.0,-7917.600000000008
