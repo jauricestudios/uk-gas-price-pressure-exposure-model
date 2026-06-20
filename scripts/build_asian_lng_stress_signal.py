@@ -30,7 +30,7 @@ def read_barchart_file(path, value_name):
         raise ValueError(f"No date column found in {path}")
 
     price_col = None
-    for preferred in ["Last", "Close", "Price", "Settle"]:
+    for preferred in ["Latest", "Last", "Close", "Price", "Settle"]:
         if preferred in df.columns:
             price_col = preferred
             break
@@ -38,7 +38,7 @@ def read_barchart_file(path, value_name):
     if price_col is None:
         for col in df.columns:
             c = col.lower()
-            if "last" in c or "close" in c or "price" in c or "settle" in c:
+            if "latest" in c or "last" in c or "close" in c or "price" in c or "settle" in c:
                 price_col = col
                 break
 
