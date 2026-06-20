@@ -1,0 +1,37 @@
+Scenario,Driver,Hedge_Ratio,Hedge_Percent,Base_NBP_Price_GBP_MWh,Scenario_NBP_Price_GBP_MWh,Monthly_Volume_MWh,Unhedged_Volume_MWh,Extra_Monthly_Cost_GBP
+Base Case,Current observed market,0.0,0%,32.99,32.99,10000,10000.0,0.0
+Base Case,Current observed market,0.25,25%,32.99,32.99,10000,7500.0,0.0
+Base Case,Current observed market,0.5,50%,32.99,32.99,10000,5000.0,0.0
+Base Case,Current observed market,0.6,60%,32.99,32.99,10000,4000.0,0.0
+Base Case,Current observed market,0.75,75%,32.99,32.99,10000,2500.0,0.0
+Base Case,Current observed market,1.0,100%,32.99,32.99,10000,0.0,0.0
+European TTF Stress,European benchmark tightness,0.0,0%,32.99,38.185925000000005,10000,10000.0,51959.25000000003
+European TTF Stress,European benchmark tightness,0.25,25%,32.99,38.185925000000005,10000,7500.0,38969.43750000002
+European TTF Stress,European benchmark tightness,0.5,50%,32.99,38.185925000000005,10000,5000.0,25979.625000000015
+European TTF Stress,European benchmark tightness,0.6,60%,32.99,38.185925000000005,10000,4000.0,20783.70000000001
+European TTF Stress,European benchmark tightness,0.75,75%,32.99,38.185925000000005,10000,2500.0,12989.812500000007
+European TTF Stress,European benchmark tightness,1.0,100%,32.99,38.185925000000005,10000,0.0,0.0
+Asian LNG Pull,Asian LNG demand pulls cargoes away from Europe,0.0,0%,32.99,35.629200000000004,10000,10000.0,26392.000000000025
+Asian LNG Pull,Asian LNG demand pulls cargoes away from Europe,0.25,25%,32.99,35.629200000000004,10000,7500.0,19794.00000000002
+Asian LNG Pull,Asian LNG demand pulls cargoes away from Europe,0.5,50%,32.99,35.629200000000004,10000,5000.0,13196.000000000013
+Asian LNG Pull,Asian LNG demand pulls cargoes away from Europe,0.6,60%,32.99,35.629200000000004,10000,4000.0,10556.80000000001
+Asian LNG Pull,Asian LNG demand pulls cargoes away from Europe,0.75,75%,32.99,35.629200000000004,10000,2500.0,6598.000000000006
+Asian LNG Pull,Asian LNG demand pulls cargoes away from Europe,1.0,100%,32.99,35.629200000000004,10000,0.0,0.0
+Middle East LNG / Chokepoint Stress,LNG shipping and supply-risk premium,0.0,0%,32.99,36.28900000000001,10000,10000.0,32990.000000000065
+Middle East LNG / Chokepoint Stress,LNG shipping and supply-risk premium,0.25,25%,32.99,36.28900000000001,10000,7500.0,24742.50000000005
+Middle East LNG / Chokepoint Stress,LNG shipping and supply-risk premium,0.5,50%,32.99,36.28900000000001,10000,5000.0,16495.000000000033
+Middle East LNG / Chokepoint Stress,LNG shipping and supply-risk premium,0.6,60%,32.99,36.28900000000001,10000,4000.0,13196.000000000025
+Middle East LNG / Chokepoint Stress,LNG shipping and supply-risk premium,0.75,75%,32.99,36.28900000000001,10000,2500.0,8247.500000000016
+Middle East LNG / Chokepoint Stress,LNG shipping and supply-risk premium,1.0,100%,32.99,36.28900000000001,10000,0.0,0.0
+Combined Global Gas Stress,European tightness plus Asian LNG pull plus geopolitical risk,0.0,0%,32.99,38.9282,10000,10000.0,59381.99999999995
+Combined Global Gas Stress,European tightness plus Asian LNG pull plus geopolitical risk,0.25,25%,32.99,38.9282,10000,7500.0,44536.49999999996
+Combined Global Gas Stress,European tightness plus Asian LNG pull plus geopolitical risk,0.5,50%,32.99,38.9282,10000,5000.0,29690.999999999975
+Combined Global Gas Stress,European tightness plus Asian LNG pull plus geopolitical risk,0.6,60%,32.99,38.9282,10000,4000.0,23752.79999999998
+Combined Global Gas Stress,European tightness plus Asian LNG pull plus geopolitical risk,0.75,75%,32.99,38.9282,10000,2500.0,14845.499999999987
+Combined Global Gas Stress,European tightness plus Asian LNG pull plus geopolitical risk,1.0,100%,32.99,38.9282,10000,0.0,0.0
+Relief Case,Softer demand and better supply conditions,0.0,0%,32.99,31.0106,10000,10000.0,-19794.00000000002
+Relief Case,Softer demand and better supply conditions,0.25,25%,32.99,31.0106,10000,7500.0,-14845.500000000015
+Relief Case,Softer demand and better supply conditions,0.5,50%,32.99,31.0106,10000,5000.0,-9897.00000000001
+Relief Case,Softer demand and better supply conditions,0.6,60%,32.99,31.0106,10000,4000.0,-7917.600000000008
+Relief Case,Softer demand and better supply conditions,0.75,75%,32.99,31.0106,10000,2500.0,-4948.500000000005
+Relief Case,Softer demand and better supply conditions,1.0,100%,32.99,31.0106,10000,0.0,-0.0
